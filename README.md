@@ -24,3 +24,37 @@ et comment la plateforme assure la coordination globale.
 <p align="center">
   <img src="images/spec_fonctionnelle.png" alt="Architecture fonctionnelle globale de la plateforme" width="700">
 </p>
+
+### Diagramme des Cas d’Utilisation
+Le diagramme de cas d’utilisation permet de visualiser les différentes interactions possibles entre les acteurs et la plateforme. Il identifie les fonctionnalités principales telles
+que : la création de demande, la supervision, le traitement des incidents, la validation
+des requêtes critiques et la consultation des tableaux de bord. Ce diagramme constitue la
+base de la modélisation fonctionnelle.
+
+<p align="center">
+  <img src="images/usecase_diagram.png" alt="Diagramme de Cas d’utilisateur entre les acteurs et la plateforme" width="700">
+</p>
+
+## Spécifications Techniques
+### Vision Globale de l’Architecture Technique
+Cette vue d’ensemble met en évidence la séparation des responsabilités :
+→ le frontend gère l’interaction avec l’utilisateur,
+→ le backend applique les règles métier et traite les requêtes,
+→ la base de données centralise et sécurise l’information.
+
+<p align="center">
+  <img src="images/architecture_globale.png" alt=" Architecture technique globale de la plateforme" width="700">
+</p>
+
+### Architecture Technique Détaillée
+Le backend, conçu avec Flask, suit une architecture de type Model–View–Controller.
+★ Le Controller gère les routes de l’API et reçoit toutes les requêtes provenant du
+frontend.
+★ Le Model communique directement avec MongoDB et réalise les opérations sur les
+données.
+★ La View renvoie systématiquement des réponses structurées au format JSON.
+
+<p align="center">
+  <img src="images/specs_t.png" alt="Architecture détaillée Frontend–Backend–Database" width="700">
+</p>
+
