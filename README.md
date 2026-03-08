@@ -86,21 +86,21 @@ des échanges.
 
 ### Client Interne
 <p align="center">
-  <img src="images/client.png" alt=" Diagramme de séquence – Client Interne" width="400">
+  <img src="images/client.png" alt=" Diagramme de séquence – Client Interne" width="600">
 </p>
 
 ### Chef de Projet
 <p align="center">
-  <img src="images/Chef.png" alt=" Diagramme de séquence – Chef de Projet" width="400">
+  <img src="images/Chef.png" alt=" Diagramme de séquence – Chef de Projet" width="600">
 </p>
 
 ### Ingénieur IT
 <p align="center">
-  <img src="images/eng.png" alt=" Diagramme de séquence – Ingénieur IT" width="400">
+  <img src="images/eng.png" alt=" Diagramme de séquence – Ingénieur IT" width="600">
 </p>
 
 ### Directeur IT
 <p align="center">
-  <img src="images/Directeur.png" alt=" Diagramme de séquence – Directeur IT" width="400">
+  <img src="images/Directeur.png" alt=" Diagramme de séquence – Directeur IT" width="600">
 </p>
 
