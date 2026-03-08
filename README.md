@@ -22,7 +22,7 @@ composent le processus de gestion des demandes IT. Elle permet de comprendre, de
 et comment la plateforme assure la coordination globale.
 
 <p align="center">
-  <img src="images/spec_fonctionnelle.png" alt="Architecture fonctionnelle globale de la plateforme" width="700">
+  <img src="images/spec_fonctionnelle.png" alt="Architecture fonctionnelle globale de la plateforme" width="400">
 </p>
 
 ### Diagramme des Cas d’Utilisation
@@ -32,7 +32,7 @@ des requêtes critiques et la consultation des tableaux de bord. Ce diagramme co
 base de la modélisation fonctionnelle.
 
 <p align="center">
-  <img src="images/usecase_diagram.png" alt="Diagramme de Cas d’utilisateur entre les acteurs et la plateforme" width="700">
+  <img src="images/usecase_diagram.png" alt="Diagramme de Cas d’utilisateur entre les acteurs et la plateforme" width="400">
 </p>
 
 ## Spécifications Techniques
@@ -43,7 +43,7 @@ Cette vue d’ensemble met en évidence la séparation des responsabilités :
 → la base de données centralise et sécurise l’information.  
 
 <p align="center">
-  <img src="images/architecture_globale.png" alt=" Architecture technique globale de la plateforme" width="700">
+  <img src="images/architecture_globale.png" alt=" Architecture technique globale de la plateforme" width="400">
 </p>
 
 ### Architecture Technique Détaillée
