@@ -55,6 +55,6 @@ données.
 ★ La View renvoie systématiquement des réponses structurées au format JSON.  
 
 <p align="center">
-  <img src="images/specs_t.png" alt="Architecture détaillée Frontend–Backend–Database" width="700">
+  <img src="images/specs_t.png" alt="Architecture détaillée Frontend–Backend–Database" width="400">
 </p>
 
