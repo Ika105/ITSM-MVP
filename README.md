@@ -37,22 +37,22 @@ base de la modélisation fonctionnelle.
 
 ## Spécifications Techniques
 ### Vision Globale de l’Architecture Technique
-Cette vue d’ensemble met en évidence la séparation des responsabilités :
-→ le frontend gère l’interaction avec l’utilisateur,
-→ le backend applique les règles métier et traite les requêtes,
-→ la base de données centralise et sécurise l’information.
+Cette vue d’ensemble met en évidence la séparation des responsabilités :  
+→ le frontend gère l’interaction avec l’utilisateur,  
+→ le backend applique les règles métier et traite les requêtes,  
+→ la base de données centralise et sécurise l’information.  
 
 <p align="center">
   <img src="images/architecture_globale.png" alt=" Architecture technique globale de la plateforme" width="700">
 </p>
 
 ### Architecture Technique Détaillée
-Le backend, conçu avec Flask, suit une architecture de type Model–View–Controller.
+Le backend, conçu avec Flask, suit une architecture de type Model–View–Controller.  
 ★ Le Controller gère les routes de l’API et reçoit toutes les requêtes provenant du
-frontend.
+frontend.  
 ★ Le Model communique directement avec MongoDB et réalise les opérations sur les
-données.
-★ La View renvoie systématiquement des réponses structurées au format JSON.
+données.  
+★ La View renvoie systématiquement des réponses structurées au format JSON.  
 
 <p align="center">
   <img src="images/specs_t.png" alt="Architecture détaillée Frontend–Backend–Database" width="700">
