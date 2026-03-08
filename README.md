@@ -142,7 +142,7 @@ Cette vidéo présente une démonstration du fonctionnement de la plateforme de 
 Elle montre les principales fonctionnalités du système et le processus de traitement des requêtes.
 </p>
 
-[Voir la vidéo de démonstration]([text](https://drive.google.com/file/d/1yx5HC0xSsTVuv6SfZgJKneoFNm4nLP7N/view?usp=drive_link))
+[Voir la vidéo de démonstration](https://drive.google.com/file/d/1yx5HC0xSsTVuv6SfZgJKneoFNm4nLP7N/view?usp=drive_link)
 
 ## Conclusion
 Ce projet a permis de concevoir et de développer une plateforme complète de gestion
