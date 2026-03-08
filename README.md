@@ -104,3 +104,34 @@ des échanges.
   <img src="images/Directeur.png" alt=" Diagramme de séquence – Directeur IT" width="600">
 </p>
 
+## Fonctionnement du Module d’Intelligence Artificiell
+### Rôle de l’IA dans la plateforme
+L’intégration de l’intelligence artificielle au sein de la plateforme a pour objectif d’améliorer l’efficacité opérationnelle du service IT, d’accélérer le traitement des demandes et
+d’assister les décideurs dans la prise de décision.  
+L’IA intervient principalement dans l’analyse automatique des requêtes, la priorisation intelligente, la détection d’incidents, la recommandation de solutions et l’assistance conversationnelle destinée aux directeurs.  
+Elle s’appuie sur des modèles NLP (Natural Language Processing), des règles métier et
+des algorithmes statistiques développés en Python.  
+
+<p align="center">
+  <img src="images/ai.png" alt=" Schéma des interactions entre le Directeur et le Chatbot IA pour la
+consultation des indicateurs stratégiques" width="400">
+</p>
+
+### Interaction entre l’IA et les autres composants
+Pour illustrer clairement les échanges entre le module IA et les autres couches de la
+plateforme, le schéma suivant montre les flux principaux de données. L’IA reçoit les informations depuis Flask, interroge MongoDB pour enrichir ses analyses, utilise les modules
+statistiques Python pour générer des indicateurs, puis renvoie les résultats vers Next.js
+pour affichage aux utilisateurs.
+
+<p align="center">
+  <img src="images/module_ai.png" alt=" Interaction entre le module d’IA et les composants du système" width="400">
+</p>
+
+## Modèle de Données et Structure de la Base de Données
+La plateforme repose sur une base de données structurée en plusieurs collections permettant de gérer les utilisateurs, les demandes, les workflows ainsi que l’organisation des
+équipes IT.  
+
+<p align="center">
+  <img src="images/ERD-V1.png" alt=" Modèle de données de la plateforme – Collections MongoDB et relations" width="600">
+</p>
+
