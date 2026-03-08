@@ -135,3 +135,19 @@ La plateforme repose sur une base de données structurée en plusieurs collectio
   <img src="images/ERD-V1.png" alt=" Modèle de données de la plateforme – Collections MongoDB et relations" width="600">
 </p>
 
+<h2 align="center">Démonstration de la plateforme</h2>
+
+<p align="center">
+Cette vidéo présente une démonstration du fonctionnement de la plateforme de gestion des demandes IT.  
+Elle montre les principales fonctionnalités du système et le processus de traitement des requêtes.
+</p>
+
+<p align="center">
+  <video width="700" controls>
+    <source src="video/demo.mp4" type="video/mp4">
+  </video>
+</p>
+
+## Conclusion
+Ce projet a permis de concevoir et de développer une plateforme complète de gestion
+des demandes IT, intégrant à la fois une architecture technique moderne et des fonctionnalités avancées basées sur l’intelligence artificielle.
